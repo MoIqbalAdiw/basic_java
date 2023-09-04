@@ -4,7 +4,7 @@ public class RecursiveMethod {
         System.out.println(1*2*3*4*5);
         System.out.println(factorialRecrusive(5));
     // contoh error stack overflow
-        loop(10000);
+//        loop(10000);
 
     }
 
@@ -27,13 +27,13 @@ public class RecursiveMethod {
     }
 
     // pemanggilan recursive yang terlalu dalam bisa menyebabkan stack Over flow error
-    static void loop (int value){
-        if (value == 0){
-            System.out.println("Selesai");
-        } else {
-            System.out.println("Loop" + value);
-            loop(value -1);
-        }
-    }
+//    static void loop (int value){
+//        if (value == 0){
+//            System.out.println("Selesai");
+//        } else {
+//            System.out.println("Loop" + value);
+//            loop(value -1);
+//        }
+//    }
 
 }
